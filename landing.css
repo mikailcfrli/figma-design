@@ -1,0 +1,342 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1440px;
+}
+
+.big-box {
+  width: 1440px;
+  background-image: url(./assets/Hero.jpg);
+}
+.big-box .hero-section {
+  width: 1440px;
+  padding-top: 94px;
+  padding-bottom: 370px;
+}
+.big-box .hero-section .discover-box {
+  width: 886px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+  padding-left: 191px;
+}
+.big-box .hero-section .discover-box .first-text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 60px;
+  color: #ffffff;
+  width: 619px;
+}
+.big-box .hero-section .discover-box .more-info {
+  width: 546px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.big-box .hero-section .discover-box .input-button {
+  display: flex;
+  justify-content: space-between;
+  width: 886px;
+  gap: 60px;
+}
+.big-box .hero-section .discover-box .input-button div {
+  display: flex;
+  gap: 23px;
+  align-items: center;
+  width: 297px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  border-bottom: 2px solid #bfc0c5;
+}
+.big-box .hero-section .discover-box .input-button button {
+  width: 171px;
+  background-color: #1b7dff;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  padding: 15px 39px;
+  border: 0;
+}
+.big-box header {
+  display: flex;
+  justify-content: center;
+}
+.big-box header .navigation {
+  width: 1078px;
+  padding-top: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+.big-box header .navigation .navlinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.big-box header .navigation .navlinks a {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.big-box header .navigation div {
+  width: 490px;
+}
+
+.second-part {
+  width: 1440px;
+}
+.second-part .card-section {
+  max-width: 1262px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -226px;
+}
+.second-part .card-section .container {
+  width: 1062px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 98px;
+  padding-bottom: 100px;
+}
+.second-part .card-section .container .card-header {
+  font-family: Lato;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 42px;
+  color: #102746;
+  width: 270px;
+  margin-bottom: 120px;
+}
+.second-part .card-section .container .card-boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 260px;
+}
+.second-part .card-section .container .card-boxes .card-one {
+  width: 317px;
+  border-radius: 0px;
+}
+.second-part .card-section .container .card-boxes .card-one img {
+  width: 66px;
+  border-radius: 0px;
+  margin-bottom: 37px;
+}
+.second-part .card-section .container .card-boxes .card-one div {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 26px;
+}
+.second-part .card-section .container .card-boxes .card-one text {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.second-part .card-section .container .card-boxes .card-one p {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #006dfe;
+}
+.second-part .card-section .container .card-boxes .card-one p img {
+  width: 33px;
+  border-radius: 0px;
+}
+.second-part .card-section .container .card-boxes .card-two {
+  width: 317px;
+  border-radius: 0px;
+}
+.second-part .card-section .container .card-boxes .card-two img {
+  width: 65px;
+  left: 561px;
+  top: 996px;
+  border-radius: 0px;
+  margin-bottom: 37px;
+}
+.second-part .card-section .container .card-boxes .card-two div {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 26px;
+}
+.second-part .card-section .container .card-boxes .card-two text {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.second-part .card-section .container .card-boxes .card-two p {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #006dfe;
+}
+.second-part .card-section .container .card-boxes .card-two p img {
+  width: 33px;
+  border-radius: 0px;
+}
+.second-part .card-section .container .card-boxes .card-three {
+  width: 317px;
+  border-radius: 0px;
+}
+.second-part .card-section .container .card-boxes .card-three img {
+  height: 58px;
+  width: 58px;
+  margin-bottom: 37px;
+  border-radius: 0px;
+}
+.second-part .card-section .container .card-boxes .card-three div {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 26px;
+}
+.second-part .card-section .container .card-boxes .card-three text {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.second-part .card-section .container .card-boxes .card-three p {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #006dfe;
+}
+.second-part .card-section .container .card-boxes .card-three p img {
+  height: 8px;
+  width: 33px;
+  border-radius: 0px;
+}
+.second-part .get-inspired-section {
+  width: 1264px;
+  margin-left: 88px;
+  margin-right: 88px;
+  margin-top: 136px;
+}
+.second-part .get-inspired-header {
+  width: 457px;
+  font-family: Lato;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #102746;
+  border-bottom: 2px solid #006DFE;
+}
+.second-part .get-inspired-view {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #006DFE;
+  margin-top: 14px;
+}
+.second-part .get-inspired-view img {
+  width: 33px;
+  height: 8px;
+  margin-top: 7px;
+}
+.second-part .grid-container {
+  display: grid;
+  grid-template-columns: 619px 619px 415px 415px 414px;
+}
+.second-part .grid-item-first {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.second-part .grid-item-first img {
+  width: 619px;
+  margin-bottom: auto;
+}
+.second-part .grid-item-second {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+.second-part .grid-item-second img {
+  width: 619px;
+  margin-bottom: -391px;
+}
+.second-part .grid-item-third {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.second-part .grid-item-third img {
+  width: 415px;
+  margin-top: auto;
+}
+.second-part .grid-item-fourth {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.second-part .grid-item-fourth img {
+  width: 415px;
+  margin-left: -235px;
+  margin-top: auto;
+}
+.second-part .grid-item-fifth {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+.second-part .grid-item-fifth img {
+  width: 414px;
+  margin-left: -470px;
+  margin-top: auto;
+}
+.second-part .prefecture-neighborhood-section {
+  width: 1271px;
+  margin-right: 84px;
+  margin-left: 85px;
+  margin-top: 131px;
+}/*# sourceMappingURL=landing.css.map */
