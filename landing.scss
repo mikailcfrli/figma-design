@@ -271,7 +271,7 @@ body {
     letter-spacing: 0px;
     text-align: left;
     color: #102746;
-    border-bottom: 2px solid #006DFE; 
+    border-bottom: 2px solid #006DFE;margin-top: 7px;
     }
   .get-inspired-view{font-family: Lato;
     font-size: 16px;
@@ -305,10 +305,10 @@ body {
       grid-column-end: 4; img{width: 414px;
         margin-left: -470px;
       margin-top: auto;}}
-  .prefecture-neighborhood-section{width: 1271px;margin-right: 80px;margin-left: 85px;margin-top: 131px;}
+  .prefecture-neighborhood-section{width: 1271px;margin-right: 84px;margin-left: 85px;margin-top: 131px;}
 
   .prefecture-text-img>img{width: 597; margin-right: 758px;margin-left: 85px;}
- .text h1{width: 357px;margin-bottom: 85px; margin-right: 293px;
+ .text h1{width: 357px;margin-bottom: 85px; margin-right: 293px;margin-left: 790px;margin-top: -331px;
   font-family: Lato;
   font-size: 30px;
   font-weight: 500;
@@ -316,7 +316,7 @@ body {
   letter-spacing: 0px;
   text-align: left;
   color: #102746;}
-  .text h2{margin-right: 131px;margin-left: 790px;margin-top: 85px;
+  .text h2{margin-right: 131px;margin-left: 759px;margin-top: 85px;
     width: 519px;font-family: Lato;
     font-size: 16px;
     font-weight: 400;
@@ -334,23 +334,23 @@ body {
   .text h3 img{width: 33px;margin-top:66px;}
 .neighborhood-text-img>img{margin-top: 134px;margin-right: 84px;width: 597px;
 margin-left: 759px;}
-.text-neighborhood h4{width: 357px;margin-top: 45px;margin-left: 132px;margin-right:132px;margin-top:588px;
+.text-neighborhood h4{width: 357px;margin-top:-316px;margin-left: 132px;margin-right:132px;
   font-family: Lato;
   font-size: 30px;
   font-weight: 500;
   line-height: 40px;
   letter-spacing: 0px;
   text-align: left;
-  color: #102746;}
-.tex-neighborhood h5{width: 519px;margin-top: 45px;margin-right: 97px;
+  color: #102746;};
+h5{width: 519px;margin-top: 45px;margin-right: 97px;
 margin-left: 132px;font-family: Lato;
 font-size: 16px;
 font-weight: 300;
 line-height: 24px;
 letter-spacing: 0px;
 text-align: left;
-color: #102746}
-.text-neighborhood h6{font-family: Lato;
+color: #102746};
+h6{font-family: Lato;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -360,9 +360,31 @@ color: #102746}
   margin-top: 94px;
   margin-left: 132px;
   margin-right: 437px;}
-  .text-neighborhood h6 img{margin-top: 102px;
+;h6 img{margin-top: 102px;
   margin-bottom: 160px;
 margin-left: 27px;margin-right:377px;}
-}
+.header{width: 369px;margin-left: 85px;margin-right: 986px;margin-top: 152px;font-family: Lato;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 42px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #102746;
+border-bottom:2px Solid #006DFE;}
+.nagoya{width:392px;margin-left: 81px}
+.nagoya div img{width: 386px; margin-top: 54;margin-bottom: 45px;}
+text{width: 391px;font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #102746;};div button{width: 118px;margin-top: 31px;
+    background-color: #006DFE;font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    padding: 12px 19px;color: #ffffff;border: 0; }}
   
 

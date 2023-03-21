@@ -272,6 +272,7 @@ body {
   text-align: left;
   color: #102746;
   border-bottom: 2px solid #006DFE;
+  margin-top: 7px;
 }
 .second-part .get-inspired-view {
   font-family: Lato;
@@ -336,7 +337,7 @@ body {
 }
 .second-part .prefecture-neighborhood-section {
   width: 1271px;
-  margin-right: 80px;
+  margin-right: 84px;
   margin-left: 85px;
   margin-top: 131px;
 }
@@ -349,6 +350,8 @@ body {
   width: 357px;
   margin-bottom: 85px;
   margin-right: 293px;
+  margin-left: 790px;
+  margin-top: -331px;
   font-family: Lato;
   font-size: 30px;
   font-weight: 500;
@@ -359,7 +362,7 @@ body {
 }
 .second-part .text h2 {
   margin-right: 131px;
-  margin-left: 790px;
+  margin-left: 759px;
   margin-top: 85px;
   width: 519px;
   font-family: Lato;
@@ -396,10 +399,9 @@ body {
 }
 .second-part .text-neighborhood h4 {
   width: 357px;
-  margin-top: 45px;
+  margin-top: -316px;
   margin-left: 132px;
   margin-right: 132px;
-  margin-top: 588px;
   font-family: Lato;
   font-size: 30px;
   font-weight: 500;
@@ -408,7 +410,7 @@ body {
   text-align: left;
   color: #102746;
 }
-.second-part .tex-neighborhood h5 {
+.second-part h5 {
   width: 519px;
   margin-top: 45px;
   margin-right: 97px;
@@ -421,7 +423,7 @@ body {
   text-align: left;
   color: #102746;
 }
-.second-part .text-neighborhood h6 {
+.second-part h6 {
   font-family: Lato;
   font-size: 16px;
   font-weight: 400;
@@ -433,9 +435,55 @@ body {
   margin-left: 132px;
   margin-right: 437px;
 }
-.second-part .text-neighborhood h6 img {
+.second-part h6 img {
   margin-top: 102px;
   margin-bottom: 160px;
   margin-left: 27px;
   margin-right: 377px;
+}
+.second-part .header {
+  width: 369px;
+  margin-left: 85px;
+  margin-right: 986px;
+  margin-top: 152px;
+  font-family: Lato;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 42px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #102746;
+  border-bottom: 2px Solid #006DFE;
+}
+.second-part .nagoya {
+  width: 392px;
+  margin-left: 81px;
+}
+.second-part .nagoya div img {
+  width: 386px;
+  margin-top: 54;
+  margin-bottom: 45px;
+}
+.second-part text {
+  width: 391px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #102746;
+}
+.second-part div button {
+  width: 118px;
+  margin-top: 31px;
+  background-color: #006DFE;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+  padding: 12px 19px;
+  color: #ffffff;
+  border: 0;
 }/*# sourceMappingURL=landing.css.map */
