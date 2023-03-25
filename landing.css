@@ -271,7 +271,7 @@ body {
   letter-spacing: 0px;
   text-align: left;
   color: #102746;
-  border-bottom: 2px solid #006DFE;
+  border-bottom: 2px solid #006dfe;
   margin-top: 7px;
 }
 .second-part .get-inspired-view {
@@ -281,7 +281,7 @@ body {
   line-height: 24px;
   letter-spacing: 0px;
   text-align: right;
-  color: #006DFE;
+  color: #006dfe;
   margin-top: 14px;
 }
 .second-part .get-inspired-view img {
@@ -385,7 +385,7 @@ body {
   letter-spacing: 0px;
   text-align: right;
   font-family: Lato;
-  color: #006DFE;
+  color: #006dfe;
 }
 .second-part .text h3 img {
   width: 33px;
@@ -430,7 +430,7 @@ body {
   line-height: 24px;
   letter-spacing: 0px;
   text-align: left;
-  color: #006DFE;
+  color: #006dfe;
   margin-top: 94px;
   margin-left: 132px;
   margin-right: 437px;
@@ -453,7 +453,7 @@ body {
   letter-spacing: 0px;
   text-align: left;
   color: #102746;
-  border-bottom: 2px Solid #006DFE;
+  border-bottom: 2px Solid #006dfe;
 }
 .second-part .nagoya {
   width: 392px;
@@ -482,7 +482,7 @@ body {
 .second-part div button {
   width: 118px;
   margin-top: 31px;
-  background-color: #006DFE;
+  background-color: #006dfe;
   font-family: Lato;
   font-size: 16px;
   font-weight: 400;
@@ -493,9 +493,47 @@ body {
   border: 0;
 }
 
+.video-section {
+  margin-top: 144px;
+}
+.video-section img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 footer {
-  background-color: #0E1D28;
+  background-color: #0e1d28;
 }
 footer .inside-footer {
   padding: 118px 167px 118px 194px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .inside-footer img {
+  align-self: flex-start;
+}
+footer .inside-footer .menu-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 139.5px;
+}
+footer .inside-footer .menu-footer .footer-columns {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+footer .inside-footer .menu-footer .footer-columns a {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  text-decoration: none;
 }/*# sourceMappingURL=landing.css.map */
