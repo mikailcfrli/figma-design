@@ -459,10 +459,15 @@ body {
   width: 392px;
   margin-left: 81px;
 }
-.second-part .nagoya div img {
+.second-part .nagoya.image-wrapper {
   width: 386px;
   margin-top: 54;
   margin-bottom: 45px;
+  position: relative;
+}
+.second-part .nagoya.image-info {
+  position: absolute;
+  background-color: #151824;
 }
 .second-part text {
   width: 391px;
@@ -486,4 +491,11 @@ body {
   padding: 12px 19px;
   color: #ffffff;
   border: 0;
+}
+
+footer {
+  background-color: #0E1D28;
+}
+footer .inside-footer {
+  padding: 118px 167px 118px 194px;
 }/*# sourceMappingURL=landing.css.map */
